@@ -7,9 +7,6 @@ The Fusion plugin for [Styletron](http://styletron.js.org/), which, in addition 
 ## Installation
 
 ```sh
-npm install fusion-plugin-styletron-react --save
-```
-```sh
 yarn add fusion-plugin-styletron-react
 ```
 
