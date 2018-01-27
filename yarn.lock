@@ -1510,9 +1510,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-universal-package@3.2.6:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/create-universal-package/-/create-universal-package-3.2.6.tgz#8269a7ac8ad5d1e13139a36f18d139fb48000483"
+create-universal-package@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/create-universal-package/-/create-universal-package-3.3.0.tgz#69c31d117705f72b8c418c1140e4cf051160ef9d"
   dependencies:
     "@babel/core" "^7.0.0-beta.36"
     "@babel/plugin-transform-flow-strip-types" "^7.0.0-beta.36"
@@ -4577,7 +4577,7 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-styletron-client@^3.0.2, styletron-client@^3.0.4:
+styletron-client@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-client/-/styletron-client-3.0.4.tgz#50c3fcdc7f45ed0693d68dc174bd0f2fa607cc57"
   dependencies:
@@ -4587,7 +4587,7 @@ styletron-core@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-core/-/styletron-core-3.0.4.tgz#648081572a8de30acbe3008cd283c421565444bb"
 
-styletron-react@^3.0.0-rc.5:
+styletron-react@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-3.0.4.tgz#fe7714778a809f6c2634b62a334fc0b6ba265a36"
   dependencies:
@@ -4597,7 +4597,7 @@ styletron-react@^3.0.0-rc.5:
     styletron-server "^3.0.4"
     styletron-utils "^3.0.4"
 
-styletron-server@^3.0.2, styletron-server@^3.0.4:
+styletron-server@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-server/-/styletron-server-3.0.4.tgz#6bf24643b2ce84198d0fcb7c27308f00880c8dfd"
   dependencies:

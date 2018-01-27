@@ -12,7 +12,7 @@ import {createPlugin} from 'fusion-core';
 
 let styletron;
 
-export default createPlugin({
+export default __BROWSER__ && createPlugin({
   middleware: () => (ctx, next) => {
     if (ctx.element) {
       if (!styletron) {

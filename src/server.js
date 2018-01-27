@@ -11,7 +11,7 @@ import {StyletronProvider} from 'styletron-react';
 
 import {createPlugin, dangerouslySetHTML} from 'fusion-core';
 
-export default createPlugin({
+export default __NODE__ && createPlugin({
   middleware: () => (ctx, next) => {
     if (ctx.element) {
       const styletron = new Styletron();
