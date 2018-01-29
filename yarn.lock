@@ -2026,7 +2026,7 @@ eslint-plugin-flowtype@2.42.0:
   dependencies:
     lodash "^4.15.0"
 
-eslint-plugin-import@2.8.0:
+eslint-plugin-import@^2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.8.0.tgz#fa1b6ef31fcb3c501c09859c1b86f1fc5b986894"
   dependencies:
@@ -2048,9 +2048,9 @@ eslint-plugin-prettier@2.5.0:
     fast-diff "^1.1.1"
     jest-docblock "^21.0.0"
 
-eslint-plugin-react@7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.6.0.tgz#351651188c74c5b2fecc2717e3936b7207baa728"
+eslint-plugin-react@7.6.1:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.6.1.tgz#5d0e908be599f0c02fbf4eef0c7ed6f29dff7633"
   dependencies:
     doctrine "^2.0.2"
     has "^1.0.1"
@@ -4572,7 +4572,7 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-styletron-client@^3.0.2, styletron-client@^3.0.4:
+styletron-client@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-client/-/styletron-client-3.0.4.tgz#50c3fcdc7f45ed0693d68dc174bd0f2fa607cc57"
   dependencies:
@@ -4582,7 +4582,7 @@ styletron-core@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-core/-/styletron-core-3.0.4.tgz#648081572a8de30acbe3008cd283c421565444bb"
 
-styletron-react@^3.0.0-rc.5:
+styletron-react@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-3.0.4.tgz#fe7714778a809f6c2634b62a334fc0b6ba265a36"
   dependencies:
@@ -4592,7 +4592,7 @@ styletron-react@^3.0.0-rc.5:
     styletron-server "^3.0.4"
     styletron-utils "^3.0.4"
 
-styletron-server@^3.0.2, styletron-server@^3.0.4:
+styletron-server@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-server/-/styletron-server-3.0.4.tgz#6bf24643b2ce84198d0fcb7c27308f00880c8dfd"
   dependencies:
