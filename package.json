@@ -24,7 +24,7 @@
   "dependencies": {
     "prop-types": "^15.6.0",
     "styletron-client": "^3.0.4",
-    "styletron-react": "^3.0.4",
+    "styletron-react": "^4.0.0",
     "styletron-server": "^3.0.4"
   },
   "devDependencies": {
