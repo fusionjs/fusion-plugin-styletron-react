@@ -731,10 +731,6 @@
   version "9.4.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.1.tgz#0f636f7837e15d2d73a7f6f3ea0e322eb2a5ab65"
 
-"@types/react@*":
-  version "16.0.36"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.36.tgz#ceb5639013bdb92a94147883052e69bb2c22c69b"
-
 "@types/rimraf@^0.0.28":
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-0.0.28.tgz#5562519bc7963caca8abf7f128cae3b594d41d06"
@@ -4603,15 +4599,19 @@ styletron-core@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-core/-/styletron-core-3.0.4.tgz#648081572a8de30acbe3008cd283c421565444bb"
 
-styletron-react@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-3.0.4.tgz#fe7714778a809f6c2634b62a334fc0b6ba265a36"
+styletron-react-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/styletron-react-core/-/styletron-react-core-1.0.0.tgz#1c361dbd7061b2e3e51ef4af0a96d40cbab93ca6"
   dependencies:
-    "@types/react" "*"
     prop-types "^15.6.0"
-    styletron-client "^3.0.4"
-    styletron-server "^3.0.4"
-    styletron-utils "^3.0.4"
+
+styletron-react@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-4.0.0.tgz#509a3ef920640b9871a025ac176b29793c9e300f"
+  dependencies:
+    prop-types "^15.6.0"
+    styletron-react-core "^1.0.0"
+    styletron-standard "^1.0.0"
 
 styletron-server@^3.0.4:
   version "3.0.4"
@@ -4619,9 +4619,9 @@ styletron-server@^3.0.4:
   dependencies:
     styletron-core "^3.0.4"
 
-styletron-utils@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/styletron-utils/-/styletron-utils-3.0.4.tgz#6696320f6ade52383006c4d47e72c5c6a1f37b15"
+styletron-standard@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-1.0.0.tgz#9136a0e24d178bc9f7ef2448a7bb9999d103d76d"
   dependencies:
     inline-style-prefixer "^4.0.0"
 
