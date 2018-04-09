@@ -12,7 +12,7 @@ import React from 'react';
 import {renderToString} from 'react-dom/server';
 
 import {consumeSanitizedHTML} from 'fusion-core';
-import type {Context, FusionPlugin} from 'fusion-core';
+import type {Context} from 'fusion-core';
 import {styled, Provider as StyletronProvider} from 'styletron-react';
 
 import plugin from '../server';
