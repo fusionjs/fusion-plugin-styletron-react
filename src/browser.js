@@ -34,7 +34,7 @@ const plugin =
         ctx.element = (
           <StyletronProvider
             value={engine}
-            debugMode={__DEV__ ? 'ssr' : void 0}
+            debugMode={false}
           >
             <LegacyProvider value={engine}>{ctx.element}</LegacyProvider>
           </StyletronProvider>
