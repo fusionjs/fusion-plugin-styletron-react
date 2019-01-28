@@ -5593,13 +5593,13 @@ strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-styletron-engine-atomic@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/styletron-engine-atomic/-/styletron-engine-atomic-1.0.9.tgz#8f2428e63c45e707513933ebf75a407c20334fca"
-  integrity sha512-aIBJEonm+fb2QNwqwJ1X7cKXsQXw5Si+BRAgmqGuKzRhj2Sqb5swpoicWZobT0zJMDjHppxB9lq3x4aMmhqwNA==
+styletron-engine-atomic@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/styletron-engine-atomic/-/styletron-engine-atomic-1.0.13.tgz#0c53ec9c39fe153a7359f747ee677d54737cec10"
+  integrity sha512-aN1FKxEZwGwVoHtm9us/LxCKhe/hSQScu+4fZhc9jWa9S3ZX91L1vybrAHqsRYdLgtfmtCwJwfzuX1Nwm0/bxw==
   dependencies:
     inline-style-prefixer "^4.0.0"
-    styletron-standard "^1.0.7"
+    styletron-standard "^2.0.1"
 
 styletron-react-core@^1.3.3:
   version "1.3.3"
@@ -5622,6 +5622,13 @@ styletron-standard@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-1.0.7.tgz#f960c91a5ef127d7601222658892925e8dd5fa5d"
   integrity sha512-clCCuIhTGS6iU2VmxiPdsaApirH1DCvymy6s1o14Az0A+FUckziralQDuP8ylWEBSDpOWqoXkG16uDt5mWux9A==
+  dependencies:
+    inline-style-prefixer "^4.0.0"
+
+styletron-standard@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-2.0.1.tgz#09ea1e339876f56d80e3e0bf1cbc62490c9ac03f"
+  integrity sha512-yLUdUk9HDpXtuORy1VQqdc77idC2ayuTt2/F5FXy66u4VyDSAi4L0MDveZoUnkJf66wMErO8Pb70eHa1J5R8JQ==
   dependencies:
     inline-style-prefixer "^4.0.0"
 
