@@ -15,6 +15,8 @@ import {
   withWrapper,
 } from 'styletron-react';
 
+import {AtomicPrefixToken} from './constants.js';
+
 import server from './server';
 import browser from './browser';
 
@@ -22,3 +24,4 @@ declare var __NODE__: Boolean;
 
 export default (__NODE__ ? server : browser);
 export {styled, withStyle, withStyleDeep, withTransform, withWrapper};
+export {AtomicPrefixToken};
