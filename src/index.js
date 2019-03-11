@@ -6,7 +6,6 @@
  * @flow
  */
 
-/* eslint-env browser */
 import {
   styled,
   withStyle,

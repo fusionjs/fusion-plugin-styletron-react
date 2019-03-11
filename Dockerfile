@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=uber/web-base-image:2.0.0
+ARG BASE_IMAGE=uber/web-base-image:10.15.2
 FROM $BASE_IMAGE
 
 WORKDIR /fusion-plugin-styletron-react

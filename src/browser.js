@@ -8,6 +8,7 @@
 
 /* eslint-env browser */
 /* global module */
+
 import React from 'react';
 import {createPlugin} from 'fusion-core';
 import type {FusionPlugin} from 'fusion-core';
@@ -54,10 +55,8 @@ const plugin =
             id: 'set_render_interval',
             interval: 180,
           });
-          // $FlowFixMe
-          if (module.hot) {
-            // $FlowFixMe
-            module.hot.addStatusHandler(status => {
+          if ((module: any).hot) {
+            (module: any).hot.addStatusHandler(status => {
               if (status === 'dispose') {
                 worker.postMessage({id: 'invalidate'});
               }
