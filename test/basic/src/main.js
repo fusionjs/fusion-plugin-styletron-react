@@ -2,7 +2,7 @@
 
 import React from 'react';
 import App from 'fusion-react';
-import Styletron, {styled} from '../../../..';
+import Styletron, {styled} from '../../..';
 
 const StyledComponent = styled('div', props => ({color: props.$color}));
 

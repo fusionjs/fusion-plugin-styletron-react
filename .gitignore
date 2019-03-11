@@ -4,7 +4,7 @@ dist-node-cjs/
 dist-node-esm/
 coverage/
 .nyc_output/
-test/fixtures/*/.fusion
+test/*/.fusion
 
 .DS_Store
 npm-debug.log

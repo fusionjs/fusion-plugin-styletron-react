@@ -8,10 +8,12 @@ const path = require('path');
 const getPort = require('get-port');
 const puppeteer = require('puppeteer');
 
+const {untilReady, getComputedStyle, getStyles} = require('../utils.js');
+
 const execFile = promisify(child_process.execFile);
 const spawn = child_process.spawn;
 
-const fixture = path.join(__dirname, './fixtures/basic');
+const fixture = __dirname;
 
 test('basic rendering and hydration works', async () => {
   const env = Object.assign({}, process.env, {NODE_ENV: 'production'});
@@ -33,6 +35,7 @@ test('basic rendering and hydration works', async () => {
 
   const page = await browser.newPage();
   await untilReady(page, port);
+  await page.goto(`http://localhost:${port}`);
 
   expect((await getComputedStyle(page, '#styled')).color).toEqual(
     'rgb(255, 0, 0)'
@@ -54,30 +57,3 @@ test('basic rendering and hydration works', async () => {
   server.kill();
   browser.close();
 }, 30000);
-
-function getStyles(page) {
-  return page.evaluate(() => {
-    return Array.from(document.styleSheets).flatMap(sheet =>
-      Array.from(sheet.cssRules).flatMap(rule => rule.cssText)
-    );
-  });
-}
-
-function getComputedStyle(page, selector) {
-  return page.$eval(selector, el =>
-    JSON.parse(JSON.stringify(getComputedStyle(el)))
-  );
-}
-
-async function untilReady(page, port) {
-  let started = false;
-  let numTries = 0;
-  while (!started && numTries < 50) {
-    try {
-      await page.goto(`http://localhost:${port}`);
-      started = true;
-    } catch (e) {
-      numTries++;
-    }
-  }
-}
