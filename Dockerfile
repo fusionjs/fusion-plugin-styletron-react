@@ -6,5 +6,3 @@ WORKDIR /fusion-plugin-styletron-react
 COPY . .
 
 RUN yarn
-
-RUN yarn test
