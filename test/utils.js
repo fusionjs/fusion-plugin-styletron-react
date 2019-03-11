@@ -1,4 +1,7 @@
-// @flow
+// @noflow
+
+/* eslint-env node, browser */
+
 exports.getStyles = function getStyles(page) {
   return page.evaluate(() => {
     return Array.from(document.styleSheets).flatMap(sheet =>

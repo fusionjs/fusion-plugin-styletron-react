@@ -4,7 +4,6 @@
 
 const child_process = require('child_process');
 const {promisify} = require('util');
-const path = require('path');
 const getPort = require('get-port');
 const puppeteer = require('puppeteer');
 const {untilReady, getComputedStyle, getStyles} = require('../utils.js');
