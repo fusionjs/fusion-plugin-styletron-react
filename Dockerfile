@@ -7,4 +7,4 @@ COPY . .
 
 RUN yarn
 
-RUN yarn build-test
+RUN yarn test
